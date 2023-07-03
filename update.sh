@@ -1,0 +1,2 @@
+python -m grpc_tools.protoc -I./protobufs --python_out=./pb_grpc --grpc_python_out=./pb_grpc ./protobufs/companies.proto
+python -m grpc_tools.protoc -I./protobufs --python_out=./pb_grpc --grpc_python_out=./pb_grpc ./protobufs/products.proto
